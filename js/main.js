@@ -37,8 +37,8 @@ $(window).load(function(){
 //GOOGLE MAP
 function init_map() {
     var myOptions = {
-        zoom: 14,
-        center: new google.maps.LatLng(-22.902488, -43.175939), //change the coordinates
+        zoom: 11,
+        center: new google.maps.LatLng(-23.0585, -45.887), // -23.165, -45.887 = Ilha Parque da Cidade
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: false,
         styles: [{featureType:'all',stylers:[{saturation:-100},{gamma:0.90}]}]
@@ -46,11 +46,8 @@ function init_map() {
     map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
     marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(-22.902488, -43.175939) //change the coordinates
+        position: new google.maps.LatLng(-23.0585, -45.887) // Coordenadas do sítio
     });
 
 }
 google.maps.event.addDomListener(window, 'load', init_map);
-
-
-
