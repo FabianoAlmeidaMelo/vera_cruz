@@ -167,7 +167,7 @@ section header h2 {
     padding: 0;
     display: block;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0) url("../img/logo.png") no-repeat scroll left bottom;
+    /*background: rgba(0, 0, 0, 0) url("../img/logo.png") no-repeat scroll left bottom;*/
 }
 
 
@@ -279,7 +279,7 @@ section header h2 {
 /* REGISTER */
 
 .register {
-    background: url(../img/register-bg.jpg) no-repeat center center;
+    background: url(../img/casa_frontal_slin.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
