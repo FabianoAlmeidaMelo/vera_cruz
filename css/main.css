@@ -214,11 +214,13 @@ section header h2 {
     max-height: auto;
     height:700px;
     background:url(../img/top-bg.jpg) bottom center no-repeat;
+    background-position:center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position:relative;
+    background-repeat: no-repeat;
 
 }
 
